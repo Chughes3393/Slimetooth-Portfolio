@@ -11,6 +11,9 @@ import Header from './components/Header/Header.js'
 import Home from './pages/Home/'
 import Portfolio from './pages/Portfolio'
 import Login from './pages/Login'
+import About from './pages/About'
+import Contact from './pages/Contact'
+import Shop from './pages/Shop'
 
 // context
 import UserContext from './Contexts/UserContext'
@@ -46,23 +49,23 @@ function App() {
   return (
     <div className="App">
 
-      <div id='results'></div>
+
       <button onClick={getAdvice} id='getData'>Get Advice</button>
+      <div id='results'></div>
 
       <UserContext.Provider value={user}>
-
-
 
         <Header />
         <Nav />
         <Routes>
-
+          <Route path='about' element={<About />} />
+          <Route path='contact' element={<Contact />} />
           <Route path='/' element={<Home />} />
           <Route path='login' element={<Login setUser={setUser} />} />
           <Route path='portfolio' element={<Portfolio />} />
+          <Route path='shop' element={<Shop />} />
 
         </Routes>
-
 
         <Footer />
 
