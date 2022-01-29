@@ -1,4 +1,27 @@
 .nav-item{
     border: 1px solid black;
+    background-color: #FF00DC;
+    width: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     
+}
+
+#nav-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+}
+
+.navbar-brand{
+    border: 1px solid black;
+    background-color: #FF00DC;
+    width: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

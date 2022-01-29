@@ -1,0 +1,17 @@
+.carousel-item{
+    width: 20em;
+    height: 30em;
+}
+
+.carousel-inner{
+    display:flex;
+    flex-direction: center;
+    align-items: center;
+}
+
+#home-imgs{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

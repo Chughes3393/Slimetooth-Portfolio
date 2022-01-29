@@ -1,6 +1,6 @@
 
 import { Routes, Route } from 'react-router-dom'
-import { useState, useContext, useEffect } from 'react'
+import { useState, useContext } from 'react'
 
 //components
 import Nav from './components/Nav'
@@ -21,37 +21,12 @@ import UserContext from './Contexts/UserContext'
 // css
 import './App.css'
 
-function getAdvice() {
 
-  // https://www.ostoncodecypher.com/details?id=158&title=display_random_advice_on_your__website_or__web_app_using_advice_slip_json_api
-
-  const resDiv = document.querySelector('#results');
-  const resBtn = document.querySelector('#getData');
-
-  fetch('	https://api.adviceslip.com/advice')
-    .then(response => { return response.json(); })
-    .then(adviceData => {
-      const Adviceobj = adviceData.slip;
-      resDiv.innerHTML = `<p>${Adviceobj.advice}</p>`;
-    }).catch(error => { console.log(error); });
-
-  resBtn.addEventListener('click', () => {
-    getAdvice();
-  });
-
-  window.onload = () => {
-    getAdvice();
-  };
-}
 
 function App() {
   const [user, setUser] = useState('')
   return (
     <div className="App">
-
-
-      <button onClick={getAdvice} id='getData'>Get Advice</button>
-      <div id='results'></div>
 
       <UserContext.Provider value={user}>
 
