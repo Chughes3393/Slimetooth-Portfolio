@@ -1,4 +1,5 @@
 import './styles.css'
+import tiktoklogo from '../../images/tiktoklogo.png'
 
 function getAdvice() {
 
@@ -22,7 +23,18 @@ function getAdvice() {
 const Footer = () => {
     return (
         <div id='foot-div'>
-            <div id='contact-info'>Contact info</div>
+            <div id='contact-info'><h4>Contact info</h4>
+                <a href="https://www.facebook.com/Slimetooth-art-156695032840521/?ref=py_c" className="fa fa-facebook"></a>
+
+                <a href="https://twitter.com/slimetooth_art" className="fa fa-twitter"></a>
+
+                <a href='https://www.tiktok.com/@slimetoothart' ><img src={tiktoklogo} alt='tik tok logo' className="fa fa-tiktok" /></a>
+
+                <a href="#" className="fa fa-google"></a>
+
+                <a href="https://www.instagram.com/slimetooth.art/?hl=en" className="fa fa-instagram" ></a>
+
+            </div>
             <div className="card" >
                 <div className="card-body">
                     <h5 className="card-title">Want some random unsolicited Advice?!</h5>
@@ -31,8 +43,8 @@ const Footer = () => {
                 </div>
             </div>
             <div id='lic-info'><h5>Licensing Info</h5>
-            <h6>Copyright 2022 Slimetooth Art, All Righs Reserved</h6>
-            <h6>Designed with love by Chris Hues Web Design</h6>
+                <h6>Copyright 2022 Slimetooth Art, All Righs Reserved</h6>
+                <h6>Designed with love by Chris Hues Web Design</h6>
             </div>
         </div>
     );
