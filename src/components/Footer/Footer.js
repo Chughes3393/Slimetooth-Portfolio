@@ -35,16 +35,18 @@ const Footer = () => {
                 <a href="https://www.instagram.com/slimetooth.art/?hl=en" className="fa fa-instagram" ></a>
 
             </div>
-            <div className="card" >
+            <div id='ab-section'>
+                <p><strong>Slimetooth Art is based in Massachusetts and is inspired by slime (obvs!), the colors lime green and bright pink, bones, nature, animals, cuteness, Halloween, cemetaries, cartoons, music, baked treats and sweets, candy, sanrio, aliens, the future, the past, ghosts, gremlins, goblins and more!</strong></p>
+                <p><strong>Materials most often used include: acrylic paint, polymer clay, glass beads, rhinestones, natural stones, silicon, markers, and love.</strong>
+                </p>
+                <p><strong>Commisions for drawings, paintings, and decoden phone cases are available. To inquire about pricing and details email: slimetooth.art@gmail.com</strong></p>
+                </div>
+            <div id='api-card'className="card" >
                 <div className="card-body">
                     <h5 className="card-title">Want some random unsolicited Advice?!</h5>
                     <div id='results'></div>
                     <button onClick={getAdvice} id='getData'>Get Advice</button>
                 </div>
-            </div>
-            <div id='lic-info'><h5>Licensing Info</h5>
-                <h6>Copyright 2022 Slimetooth Art, All Righs Reserved</h6>
-                <h6>Designed with love by Chris Hues Web Design</h6>
             </div>
         </div>
     );

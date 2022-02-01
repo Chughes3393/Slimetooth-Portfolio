@@ -6,6 +6,7 @@ import { useState, useContext } from 'react'
 import Nav from './components/Nav'
 import Footer from './components/Footer/Footer.js'
 import Header from './components/Header/Header.js'
+import License from './components/License'
 
 // pages
 import Home from './pages/Home/'
@@ -43,6 +44,7 @@ function App() {
         </Routes>
 
         <Footer />
+        <License />
 
       </UserContext.Provider>
 
