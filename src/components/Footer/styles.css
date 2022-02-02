@@ -30,7 +30,7 @@
 }
 
 #ab-section{
-    width:50%;
+    width:30%;
     border: 1px solid black;
     border-radius: 10%;
     border: 1px solid black;
@@ -40,6 +40,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: 1%;
 }
 
 .card-body{

@@ -39,7 +39,7 @@ const Footer = () => {
                 <p><strong>Slimetooth Art is based in Massachusetts and is inspired by slime (obvs!), the colors lime green and bright pink, bones, nature, animals, cuteness, Halloween, cemetaries, cartoons, music, baked treats and sweets, candy, sanrio, aliens, the future, the past, ghosts, gremlins, goblins and more!</strong></p>
                 <p><strong>Materials most often used include: acrylic paint, polymer clay, glass beads, rhinestones, natural stones, silicon, markers, and love.</strong>
                 </p>
-                <p><strong>Commisions for drawings, paintings, and decoden phone cases are available. To inquire about pricing and details email: slimetooth.art@gmail.com</strong></p>
+
                 </div>
             <div id='api-card'className="card" >
                 <div className="card-body">

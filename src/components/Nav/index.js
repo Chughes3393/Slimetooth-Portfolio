@@ -26,16 +26,16 @@ const Nav = () => {
                                 <Link className="nav-link active" aria-current="page" to="login">Login</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="portfolio">Portfolio</Link>
+                                <Link className="nav-link" to="portfolio"><strong>Portfolio</strong></Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="about">About</Link>
+                                <Link className="nav-link" to="about"><strong>About</strong></Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="contact">Contact</Link>
+                                <Link className="nav-link" to="contact"><strong>Contact</strong></Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="shop">Shop</Link>
+                                <Link className="nav-link" to="shop"><strong>Shop</strong></Link>
                             </li>
 
                         </ul>
