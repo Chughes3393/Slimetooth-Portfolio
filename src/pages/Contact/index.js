@@ -1,44 +1,46 @@
 import React from 'react';
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import './styles.css'
 
 const Contact = ({ setUser }) => {
 
     const [username, setUsername] = useState('')
     const navigate = useNavigate()
 
-    const handleChange = e => {
-        setUsername(e.target.value)
-    }
-
-    const handleSubmit = e => {
-        e.preventDefault()
-
-        setUser(username)
-
-        navigate('/portfolio')
-    }
     return (
-        <div>
-            <form className='mx-auto border p-2 m-2' id='login-form' onSubmit={handleSubmit}>
-                <div className="mb-3">
-
-                    <label htmlFor="exampleInputUser1" className="form-label">User Name</label>
+        <div id='cont-div'>
+            <div id='comm-info'>
+                <strong>Commisions for drawings, paintings, and decoden phone cases are available. To inquire, fill out the form below or email me directly at Slimetooth.art@gmail.com.</strong>
+            </div>
+            <form className='mx-auto ' id='contact-form' >
+                <div className="mb-3" id='name-input'>
+                    <label htmlFor="exampleInputUser1" className="form-label">Name</label>
                     <input type="text"
                         className="form-control"
-                        id="exampleInputUserName"
+                        id="exampleName"
                         aria-describedby="UserHelp"
-                        value={username}
-                        onChange={handleChange}
                     />
-                    <div id="userHelp" className="form-text">We'll never share your user name with anyone else.</div>
                 </div>
 
-                <div className="mb-3">
-                    <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
-                    <input type="password"
+                <div className="mb-3" id='email-input'>
+                    <label htmlFor="exampleInputEmail" className="form-label">Email</label>
+                    <input type="email"
                         className="form-control"
-                        id="exampleInputPassword1" />
+                        id="exampleInputEmail" />
+
+                </div>
+                <div className="mb-3" id='subject-input'>
+                    <label htmlFor="exampleInputSubject" className="form-label">Subject</label>
+                    <input type="Subject"
+                        className="form-control"
+                        id="exampleInputSubject" />
+                </div>
+                <div className="mb-3" id='message-input'>
+                    <label htmlFor="exampleInputMessage" className="form-label">Message</label>
+                    <textarea type="text"
+                        className="form-control"
+                        id="exampleInputMessage" />
                 </div>
 
                 <button type="submit" className="btn btn-primary">Submit</button>

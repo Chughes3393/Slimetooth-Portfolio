@@ -8,7 +8,7 @@ function getAdvice() {
     const resDiv = document.querySelector('#results');
     const resBtn = document.querySelector('#getData');
 
-    fetch('	https://api.adviceslip.com/advice')
+    fetch('https://api.adviceslip.com/advice')
         .then(response => { return response.json(); })
         .then(adviceData => {
             const Adviceobj = adviceData.slip;

@@ -15,14 +15,14 @@ const Login = ({ setUser }) => {
 
         setUser(username)
 
-        navigate('/portfolio')
+        navigate('/shop')
     }
 
     // console.log('props', setUser())
     // console.log('state in login', username)
 
     return (
-        <form className='mx-auto border p-2 m-2' id='login-form' onSubmit={handleSubmit}>
+        <form className='mx-auto border p-2 m-2' id='login-form1' onSubmit={handleSubmit}>
             <div className="mb-3">
 
                 <label htmlFor="exampleInputUser1" className="form-label">User Name</label>
