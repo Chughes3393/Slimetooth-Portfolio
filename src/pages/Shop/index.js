@@ -22,6 +22,7 @@ const Shop = () => {
                 </div>
 
                 <div className="tab-content" id="v-pills-tabContent">
+                    
                     <div className="tab-pane fade show active" id="v-pills-shop" role="tabpanel" aria-labelledby="v-pills-shop-tab">
 
                         Shop
