@@ -1,4 +1,31 @@
+Slimetooth Art's Portfolio was built with HTML, CSS, ReactJS, and Bootstrap. 
 
+The API in the bottom left corner is from: https://api.adviceslip.com/ and I followed this source code that is also commented in my footer component:
+
+https://www.ostoncodecypher.com/details?id=158&title=display_random_advice_on_your__website_or__web_app_using_advice_slip_json_api
+
+Youtube Tutorial for API:
+
+https://www.youtube.com/watch?v=2AfzKmgqWUE
+
+
+Deploy Link: [On Netlify (https://slimetooth.netlify.app/)]
+
+Wireframe: [On Figma(https://www.figma.com/file/s5aaiL3W69zp0MNMRA6qYB/Slimetooth-Portfolio-Wireframe?node-id=0%3A1)]
+
+Github Repo: [Slimetooth Portfolio(https://github.com/Chughes3393/Slimetooth-Portfolio)]
+
+All commits take place on the MASTER branch. No commits were made on branch main.
+
+Problem Statemnet: 
+
+The problem I encountered when making this website is that my partner needed a portfolio for her business. I took this opportunity to start this process and make her a portfolio for her art and store. The portfolio website will include a portfolio of her past work, an about statement, a contact form, and a shop where users can purchase her goods. As opposed to starting up a squarespace site (which cost hundreds of dollars to maintain and come with inflexible templates) having a personalized website built from the ground up allows to add more personalized components and to have complete creative control over the end product.
+
+Target End User:
+
+The target end user is future customers and clients who may purchase my partner's services or products. 
+
+/////////////////////////////
 
 # Getting Started with Create React App
 
