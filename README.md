@@ -1,19 +1,15 @@
 Slimetooth Art's Portfolio was built with HTML, CSS, ReactJS, and Bootstrap. 
 
-The API in the bottom left corner is from: https://api.adviceslip.com/ and I followed this source code that is also commented in my footer component:
+The API in the bottom left corner is from: [Advice Slip](https://api.adviceslip.com/)  and I followed [this source code](https://www.ostoncodecypher.com/details?id=158&title=display_random_advice_on_your__website_or__web_app_using_advice_slip_json_api) that is also commented in my footer component:
 
-https://www.ostoncodecypher.com/details?id=158&title=display_random_advice_on_your__website_or__web_app_using_advice_slip_json_api
-
-Youtube Tutorial for API:
-
-https://www.youtube.com/watch?v=2AfzKmgqWUE
+[Youtube Tutorial for API:](https://www.youtube.com/watch?v=2AfzKmgqWUE)
 
 
-Deploy Link: [On Netlify (https://slimetooth.netlify.app/)]
+Deploy Link: [On Netlify](https://slimetooth.netlify.app/)
 
-Wireframe: [On Figma(https://www.figma.com/file/s5aaiL3W69zp0MNMRA6qYB/Slimetooth-Portfolio-Wireframe?node-id=0%3A1)]
+Wireframe: [On Figma](https://www.figma.com/file/s5aaiL3W69zp0MNMRA6qYB/Slimetooth-Portfolio-Wireframe?node-id=0%3A1)
 
-Github Repo: [Slimetooth Portfolio(https://github.com/Chughes3393/Slimetooth-Portfolio)]
+Github Repo: [Slimetooth Portfolio](https://github.com/Chughes3393/Slimetooth-Portfolio)
 
 All commits take place on the MASTER branch. No commits were made on branch main.
 
